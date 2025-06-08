@@ -12,11 +12,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './src/global.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/blog_speak_frontend/">
       <Routes>
         <Route path="/" element={<App />}>
-          <Route index path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
+          <Route index element={<Home />} />
+          <Route path='home' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='add' element={<Add />} />
           <Route path='delete' element={<Delete />} />
