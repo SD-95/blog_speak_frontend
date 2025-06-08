@@ -98,6 +98,15 @@ const About = () => {
                                             >
                                                 <i className="fas fa-file"></i> Resume
                                             </Button>
+                                            <Button
+                                                href='https://sd-95.github.io/SD_Portfolio/'
+                                                target="_blank"
+                                                variant="secondary"
+                                                size="sm"
+                                                className="mx-1"
+                                            >
+                                                <i className="fas fa-briefcase"></i> Portfolio
+                                            </Button>
                                         </div>
                                     </Col>
                                 </Row>

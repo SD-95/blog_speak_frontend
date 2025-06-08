@@ -8,8 +8,8 @@ const Header = () => {
 
             <Navbar bg="dark" variant="dark" expand="lg" className="mb-0">
                 <Container>
-                    <Navbar.Brand href="/">
-                    <img src="/blog.svg" alt="Blog Icon" width="30" height="30" className="d-inline-block align-top me-2"/>Blog Speaks</Navbar.Brand>
+                    <Navbar.Brand href="">
+                    <img src="/blog_speak_frontend/blog.svg" alt="Blog Icon" width="30" height="30" className="d-inline-block align-top me-2"/>Blog Speaks</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarResponsive" />
                     <Navbar.Collapse id="navbarResponsive">
                         <Nav className="ms-auto">
